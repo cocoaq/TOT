@@ -26,10 +26,8 @@ public class Run {
 		place = sc.nextLine();
 
 		Animal a = new Animal(name, jong, age, bun, place);
-//		Mammalia m = new Mammalia(name, jong, age, bun, place);
-		Mammalia m = new Mammalia();
-//		Reptila r = new Reptila(name, jong, age, bun, place);
-		Reptila r = new Reptila();
+		Mammalia m = new Mammalia(name, jong, age, bun, place);
+		Reptila r = new Reptila(name, jong, age, bun, place);
 
 
 		if("포유류".equals(jong)) {
